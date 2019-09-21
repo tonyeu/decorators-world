@@ -16,12 +16,12 @@
     "type": "git",
     "url": "git+https://github.com/tonyeu/decorators-world.git"
   },
-  "keywords": [],
+  "keywords": ["typescript", "decorators"],
   "author": {
     "name": "Antonio Ramos",
     "email": "appa.ramos@gmail.com"
   },
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/tonyeu/decorators-world/issues"
   },
@@ -30,6 +30,7 @@
     "@types/jest": "^24.0.18",
     "jest": "^24.9.0",
     "rimraf": "^3.0.0",
+    "ts-jest": "^24.1.0",
     "tslint": "^5.20.0",
     "typescript": "^3.6.3",
     "typescript-tslint-plugin": "^0.5.4"
