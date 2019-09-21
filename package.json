@@ -1,0 +1,37 @@
+{
+  "name": "decorators-world",
+  "version": "0.1.0",
+  "description": "Library of typescript decorators",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rimraf ./lib && tsc && npm run lint",
+    "clean": "rimraf ./lib && rmdir node_modules /s /q",
+    "reinstall": "npm run clean && npm install",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "tsc": "tsc",
+    "test": "jest --passWithNoTests --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonyeu/decorators-world.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Antonio Ramos",
+    "email": "appa.ramos@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonyeu/decorators-world/issues"
+  },
+  "homepage": "https://github.com/tonyeu/decorators-world#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "rimraf": "^3.0.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3",
+    "typescript-tslint-plugin": "^0.5.4"
+  }
+}
